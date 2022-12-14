@@ -5,363 +5,257 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap'); </style>
+
+
+
+
+    <!-- linking the stylesheet -->
+     <link rel="stylesheet" href="css/main.css">
+
     <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-    <!-- **Below is the navbar **-->
-<div class="header-wrapper">
-    <div class="navbar-background">
-        <nav>
-        <div class="navbar">
-
-             <ul>
-                <li><img src="images/logo.png" alt="three star logo"></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">TEAM</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <input type="text" placeholder="Search">
-             </ul>
-     </div>
-     </nav>
-    </div>
-</div>
-
-<title>Final Project</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<body>
+
+ <!-- ** Below is the navbar **-->
+
+<header>   
+ <nav>
+     <div class="container">
+         <!-- <div class="logo">
+             <img src="images/logo.png" alt="logo">
+         </div> -->
+
+          <ul class="navbar">
+            <li class="active"> <img src="images/logo.png" alt="logo>"</li>
+             <li><a class="active" href="#">HOME</a></li>
+             <li><a href="#">ABOUT US</a></li>
+             <li><a href="#">SERVICES</a></li>
+             <li><a href="#">TEAM</a></li>
+             <li><a href="#">CONTACT</a></li>
+             <li>
+                <form class="searchbar">
+                    <input type="Search">
+                    <button class="search-button">
+                       <i class="fa fa-search"></i> </button>
+                </form>
+             </li>
+          </ul>
+          <!-- <form class="searchbar">
+             <input type="search">
+             <button class="search-button">
+                 &#128269; 
+             </button>
+          </form>    -->
+    </div>
+ </nav> 
+ <!-- end of navbar -->
+
 
 <!-- Below is the main header -->
 
-<div class="header">
-    <div class="banner">
-        <img src="images/main-banner.jpg" alt="office space">
-        <div class="banner-text">
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id nulla hic vel, quia delectus facilis natus quaerat aliquam a quasi tenetur assumenda aperiam soluta voluptatem.</p>
+<div class="header-welcome">
+ <div class="container">
+         <h1>Welcome to Three Star Media</h1>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id nulla hic vel, quia delectus facilis natus quaerat aliquam a quasi tenetur assumenda aperiam soluta voluptatem.</p>
 
-            <!-- Below is the button -->
+         <!-- Below is the button -->
 
-            <button class="card-button">Connect with us</button>
+         <button class="card-button2">Connect with us  ▶</button>
 
-        </div>
-    </div>
-
-
+ </div>
 </div>
 
+</header> 
+<!-- About Us section -->
 <!-- Wrapping the body with a main wrapper -->
+<main>
 
-<div class="main-wrapper">
+<section class="section-about">
+ <div class="container">
+     <div class="about-image">
+         <img src="images/about-us.jpg" alt="About Us">
+     </div>
+     <!-- end image div -->
 
-<!-- Below is the About Us section of the webpage -->
+     <div class="about-content">
+         <h2 class="about-text">
+             About Us
+         </h2>
+         <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic velit distinctio porro laudantium tenetur incidunt! Consectetur voluptas quo voluptatum aliquid enim. Deleniti, quisquam esse.
+         </p>
+         <p>
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, asperiores exercitationem! Animi dolorem suscipit illum ea inventore dolores aliquid sequi dicta reiciendis, corrupti delectus deserunt!
+         </p>
+     </div>
 
-<div class="about-wrapper">
-    <div class="about">
-        <div class="about-us">
+ </div>
 
-            <!-- Putting the image with a div wrapper -->
+</section>
 
-            <div class="about-image">
-                <img src="images/about-us.jpg" alt="office playroom">
-            </div>
-
-            <!-- Grouping the About Us section with a div -->
-
-            <div class="about-text">
-                <h3>
-                    About Us
-                </h3>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi blanditiis nesciunt deleniti molestias quo dolores asperiores, sit odit fuga nihil neque incidunt iste, corrupti rerum ratione officia eos suscipit provident?
-                </p>
-
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem sequi natus, deleniti accusamus delectus dolorem recusandae corrupti. Vero aperiam placeat sint consectetur saepe eum iusto porro quod molestias doloribus? Asperiores repudiandae, facilis modi neque libero quas distinctio et ratione quia obcaecati, ipsa doloremque sequi porro numquam culpa. Facere, necessitatibus corrupti?
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-</div>
 
 <!-- Wrapping the Our Services section with a div wrapper -->
-
-<div class="main-wrapper">
-    <div class="services-wrapper2">
-        <h3>Our Services</h3>
-
-        <div class="digital-wrapper">
-
-            <!-- Wrapping the image with a div wrapper -->
-
-            <div class="digital-image">
-                <img src="images/digital.jpg" alt="phone and laptop">
-            </div>
-
-            <!-- Wrapping the text with a div wrapper -->
-
-            <div class="digital-text">
-                <h4>Digital Transformation</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere unde, quidem quisquam, saepe corrupti delectus omnis ducimus quia suscipit eaque eum tempora voluptatum nisi porro, culpa temporibus sit odio?</p>
-
-                <!-- Putting a class on the button -->
-
-                <button class="card-button2">
-                <!-- Importing an icon from Font Awesome via W3schools -->
-                Digital Plans <i class="fas fa-caret-right"></i>
-                </button>
-            </div>
-        </div>
-
-        <!-- Wrapping the Marketing section with a div wrapper -->
-
-        <div class="marketing-wrapper">
-            <div class="marketing-imager-wrapper">
-                <img src="images/marketing.jpg" alt="laptop showing graphs">
-            </div>
-
-            <!-- Putting a class on the text -->
-
-            <div class="marketing-text">
-                <h4>Marketing</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium dolor, a voluptate accusamus fuga nihil architecto molestiae, aliquam ratione voluptatem eos commodi soluta vero debitis eaque! Tempora soluta culpa numquam?</p>
-
-               <!-- Importing an icon from Font Awesome via W3schools -->
-
-                <button class="card-button2">
-                Marketing Plans <i class="fas fa-caret-right"></i>
-                </button>
-            </div>
-        </div>
-
-        <!-- Wrapping the Video Production section with a div wrapper -->
-        <div class="video-wrapper">
-            <div>
-                <img src="images/video.jpg" alt="viewing youtube on phone">
-            </div>
-
-            <!-- Putting a class on the text -->
-            <div class="video-text">
-                <h4>Video Production</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ratione suscipit sit nesciunt dignissimos fugiat cum, eum aspernatur cumque assumenda fugit vitae. Et provident totam unde, eum deleniti exercitationem repudiandae.</p>
-
-                <!-- Importing an icon from Font Awesome via W3schools -->
-
-                <button class="card-button2">
-                    Video Plans <i class="fas fa-caret-right"></i>
-                </button>
-            </div>
-
-        </div>
-
-        <!-- Wrapping the Web Development  -->
-
-            <div class="web-wrapper">
-                <div class="web-image">
-                    <img src="images/web.jpg" alt="mobile phone opening instagram">
-                </div>
-
-                <!-- Putting a class on the text -->
-
-                <div class="web-text">
-                    <h4>Web Development</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium dolor molestias debitis et possimus cum adipisci laudantium commodi ullam, pariatur numquam provident quibusdam quod delectus sit sint saepe ut.
-                    </p>
-
-                    <!-- Putting a class on the button -->
-
-                    <button class="card-button2">
-
-                        <!-- Importing an icon from Font Awesome via W3schools -->
-
-                        Web Plans<i class="fas fa-caret-right"></i>
-                    </button>
-
-                </div>
-            </div>
-
-            <!-- Wrapping the Print section in a div wrapper -->
-
-            <div class="print-wrapper">
-                <div class="print-image">
-                    <img src="images/print.jpg" alt="newspaper postbox">
-                </div>
-
-                <!-- Putting a class on the text -->
-
-                <div class="print-text">
-                    <h4>Print</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit commodi incidunt, vitae aperiam totam ea accusamus ullam alias vel impedit fugiat, unde eveniet, tempore sint officiis id harum aut molestiae!</p>
-
-                    <!-- Putting a class on the button -->
-
-                    <button class="card-button2">
-
-                         <!-- Importing an icon from Font Awesome via W3schools -->
-                        Web Plans<i class="fas fa-caret-right"></i>
-                    </button>
-                </div>
-
-            </div>
-
-
-        
-
-    </div>
-
-    <!-- Putting a class on the vision section of the webpage -->
-
-    <div class="vision-wrapper">
-        <div class="vision">
-
-            <!-- Inserting an image file in the webpage -->
-            <img src="images/vision.jpg" alt="">
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod porro exercitationem vitae nesciunt eligendi maiores, in consequatur illo animi asperiores rerum doloremque fugit earum quia dolorem reiciendis iusto? Optio, culpa!
-            </p>
-            <!-- Putting a class on the button -->
-
-            <button class="card-button2">
-
-                <!-- Importing an icon from Font Awesome via W3schools -->
-                Learn More<i class="fas fa-caret-right"></i>
-             </button>
-
-        </div>
-    </div>
-
-    <!-- Wrapping the team section in a div wrapper -->
-
-    <div class="team-wrapper">
-
-        <!-- Putting a class on the Header -->
-        <div class="team-header">
-            <h3>Our Team</h3>
-        </div>
-        <!-- Inserting an image in the webpage -->
-        <div class="image-john">
-            <img src="images/john.jpg" alt="image of john doe">
-        </div>
-        <!-- Putting a div class on the text -->
-        <div class="text-john">
-            <h4>John Doe</h4>
-            <h5>CEO and Co-owner</h5>
-
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam sunt officiis, magnam nostrum quam hic nulla recusandae cupiditate animi provident, voluptate sequi odio tempora eius!
-            </p>
-        </div>
-
-        <!-- Inserting an image in the webpage -->
-
-
-        <div class="images-bob">
-            <img src="images/bob.jpg" alt="image of bob rite">
-        </div>
-
-        <div class="text-bob">
-            <h4>Bob Rite</h4>
-            <h5>CEO and Co-owner</h5>
-
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eligendi qui ipsam distinctio culpa necessitatibus quos consequuntur maiores perferendis, optio itaque? Quidem rem corrupti veniam eos odit cum possimus ipsam.
-            </p>
-        </div>
-    </div>
-
-
-    <!-- Creating a fieldset -->
-
-
-    <div class="contact-mainwrapper">
-        <div class="contact-wrapper2">
-
-            <div class="contact-text">
-                <h3>Contact Us</h3>
-                <h5>Send us a message</h5>
-            </div>
-
-            <div class="field">
-                <fieldset>
-                    <label for="fullname">Full Name</label>
-                    <input type="fullname" type="text" name="fullname" required>
-                </fieldset>
-
-                <fieldset>
-                    <label for="email">Email</label>
-                    <input type="email" type="text" name="email" required>
-                </fieldset>
-
-                <fieldset>
-                    <label for="message">Message</label>
-                    <input type="message" type="text" name="message" required>
-                </fieldset>
-
-                <button class="card-button3">
-                    Send
-                </button>
-            </div>
-
-            <!-- Creating a table -->
-
-
-            <div class="table">
-                <table>
-                    <caption>Hours of Operation</caption>
-
-                    <thead>
-                        <tr>
-                            <th><span>Days</span></th>
-                            <th><span>Hours</span></th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Monday - Friday</td>
-                            <td>9AM - 6PM</td>
-                        </tr>
-
-                        <tr>
-                            <td>Saturday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-
-                </table>
-
-            </div>
-                
-
-
-           <!-- Below is the location -->
-           <div class="map">
-                <h1>Location</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6872.805994021977!2d-75.75985370122007!3d45.34777191827748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669231255977!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
-           </div>
-
-        </div>
-    </div>
-    
-    <!--Below is the footer  -->
-
-    <div class="footer-background">
-        <div class="footer">
-            <p> Author: &#169; Copyright Three Star Media</p>
-            <p>All images are taken from <u>Unsplash</u></p>
-        </div>
-
-    </div>
+<h2 class="services-text">Our Services</h2>
+<div class="section-services">
+ <div class="container">
+     
+     <div class="services1">
+         <img src="images/digital.jpg" alt="Digital Transformation">
+         <h3>Digital Transformation</h3>
+         <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur at, eius sint nam debitis harum ullam accusamus maiores molestias reiciendis perspiciatis eos omnis libero ducimus.
+         </p>
+         <button class="card-button">Digital Plans ▶</button>
+     </div>
+     <div class="services2">
+         <img src="images/marketing.jpg" alt="Marketing">
+         <h3>Marketing</h3>
+         <p>
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto aperiam esse obcaecati! Repudiandae excepturi, magni quia eligendi neque facilis voluptatibus delectus fuga nobis perspiciatis quae?
+         </p>
+         <button class="card-button">Marketing Plans ▶</button>
+     </div>
+     <div class="services3">
+         <img src="images/video.jpg" alt="Video Production">
+         <h3>Video Production</h3>
+
+         <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magni sed earum reiciendis doloribus possimus. Porro, harum? Facere dolores molestias laboriosam quia animi non rerum!
+         </p>
+         <button class="card-button">Video Plans ▶</button>
+     </div>
+
+     <div class="services4">
+         <img src="images/web.jpg" alt="Web Development">
+         <h3>Web Development</h3>
+         <p>
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repellendus impedit natus, asperiores odit consectetur, minima facere iusto molestiae id commodi sed soluta laborum veritatis?
+         </p>
+         <button class="card-button">Web Plans ▶</button>
+     </div>
+
+     <div class="services5">
+         <img src="images/print.jpg" alt="Print image">
+         <h3>Print</h3>
+         <p>
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, incidunt cumque. Nemo, illo! Quidem voluptate saepe earum est quisquam placeat consequuntur quis in odit voluptatibus?
+         </p>
+         <button class="card-button">Print Plans ▶</button>
+     </div>
+
+ </div>
 
 </div>
 
+<!-- The vision section -->
+ <div class="section-vision">
+     <div class="container">
+         <h2>Our Vision</h2>
+         <p>
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nesciunt perspiciatis dolorem. Modi quaerat, ipsa aliquam maiores omnis, amet iste, pariatur nisi velit est provident.
+         </p>
+         <button class="card-button3">Learn More ▶</button>
+     </div>
+ </div>
+ <!-- End of Vision -->
+ <h2 class="team-text">Our Team</h2>
+ <div class="section-team">
+ <div class="container">
+     <div class="team1">
+         <img src="images/john.jpg" alt="John Doe">
+         <h3>John Doe</h3>
+         <h4>CEO and Co-owner</h4>
+         <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis est ut temporibus, voluptas totam facilis nisi, nulla fuga minima cupiditate impedit commodi autem debitis numquam.
+         </p>
+     </div>
+     <!-- End of John Doe -->
+
+     <div class="team2">
+         <img src="images/bob.jpg" alt="Bob Rite">
+         <h3>Bob Rite</h3>
+         <h4>CFO and Co-owner</h4>
+         <p>
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed magni pariatur, nesciunt odit id a dolorum ipsam corporis quidem delectus praesentium labore dolore exercitationem. Beatae.
+         </p>
+     </div>
+     <!-- End of Bob Rite -->
+ </div>
+</div>
 
 
-<body>
+<!-- Contact Us section -->
+<h2 class="contact-text">Contact Us</h2>
+<div class="section-contact">
+ <div class="container">
     
+     <div class="forms">
+         <h3>Send us a message</h3>
+         <form action="#">
+             <label for="fname">Full Name</label>
+             <input type="text" id="fname" name="fname">
+
+             <label for="email">Email</label>
+             <input type="text" id="email" name="email">
+
+             <label for="message">Message</label>
+             <textarea id="message"></textarea>
+             <input type="submit" value="Send">
+         </form>
+     </div>
+
+     <div class="table">
+         <h3>Hours of Operation</h3>
+         <table>
+             <tr>
+                 <th>Days</th>
+                 <th>Hours</th>
+             </tr>
+             <tr>
+                 <td>Monday - Friday</td>
+                 <td>9 AM - 6 PM</td>
+             </tr>
+             <tr>
+                 <td>Saturday - Sunday</td>
+                 <td>Closed</td>
+             </tr>
+         </table>
+     </div>
+     <!-- End Table -->
+
+
+
+
+
+        <!-- Below is the location -->
+        <div class="map">
+             <h3>Location</h3>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6872.805994021977!2d-75.75985370122007!3d45.34777191827748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669231255977!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+        </div>
+
+     
+    </div>
+
+</div>
+ 
+
+    </main>
+ 
+     <!--Below is the footer  -->
+    <footer>
+    <div class="container">
+    
+         <p> Author: &#169; Copyright Three Star Media</p>
+         <p>All images are taken from <u>Unsplash</u></p>
+    </div>
+    </footer>
+
+ 
 </body>
 </html>
